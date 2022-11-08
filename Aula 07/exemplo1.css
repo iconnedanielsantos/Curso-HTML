@@ -1,0 +1,28 @@
+:root {
+    --color-primary: #557cf2;
+    --color-accent: #f26b7a;
+    --svg-width: 200px;
+    --svg-height: 200px;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  svg {
+    height: var(--svg-height);
+    width: var(--svg-width);
+  }
+  
+  #img-umbler-favicon-out {
+    fill: var(--color-primary);
+  }
+  
+  #img-umbler-favicon-in {
+    fill: var(--color-accent);
+  }
